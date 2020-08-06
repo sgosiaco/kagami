@@ -102,6 +102,26 @@
   visibility: visible;
 }
 
+* ~ .mouse-tooltip {
+  visibility: hidden;
+  background-color: #212121dd;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  bottom: 1em;
+  margin-left: 2em;
+  margin-right: 5.5em;
+ 
+  position: absolute;
+  z-index: 3;
+}
+*:hover ~ .mouse-tooltip,
+.mouse-tooltip:hover {
+  visibility: visible;
+}
+
+
 .header-menu {
   display: flex;
   flex-direction: row-reverse;

@@ -7,72 +7,86 @@
     {
       "timing": 0,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002901.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002901.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 0.5,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002902.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002902.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 1,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002903.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002903.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 1.5,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002913.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002913.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 2.2,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000618.png' class='ogcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000618.png' class='ogcd'></div>",
+      "classes": []
     },
     {
       "timing": 3,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000605.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000605.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 3.7,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002918.png' class='ogcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002918.png' class='ogcd'></div>",
+      "classes": []
     },
     {
       "timing": 4.4,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000612.png' class='ogcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000612.png' class='ogcd'></div>",
+      "classes": []
     },
     {
       "timing": 5.1,
       "castTime": 0,
-      "element": "<div class='icon mispositional'><img src='https://xivapi.com/i/000000/000605.png' class='mispositional gcd'><i class='material-icons error-icon'>error</i></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000605.png' class='gcd'></div>",
+      "classes": ["mispositional"]
     },
     {
       "timing": 6.1,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002636.png' class='ogcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/002000/002636.png' class='ogcd'></div>",
+      "classes": []
     },
     {
       "timing": 7.2,
       "castTime": 1.8,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000409.png' class='casting gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000409.png' class='casting gcd'></div>",
+      "classes": []
     },
     {
       "timing": 9,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000409.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000409.png' class='gcd'></div>",
+      "classes": []
     },
     {
       "timing": 9.7,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000866.png' class='ogcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000866.png' class='ogcd'></div>",
+      "classes": []
     },
     {
       "timing": 10.4,
       "castTime": 0,
-      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000408.png' class='gcd'></div>"
+      "element": "<div class='icon'><img src='https://xivapi.com/i/000000/000408.png' class='gcd'></div>",
+      "classes": []
     }
   ],
   "pet-actions": {

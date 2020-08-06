@@ -1,4 +1,4 @@
-import classjob from '../resources/classjob/classjob.json'
+import classjobResources from '../resources/classjob/classjob.json'
 import {
   handleAction, handleInterrupt, cleanup, handleJobGauge, handleHit, unsubscribePet
 } from './handleAction';
@@ -28,18 +28,18 @@ const updatePet = (logCode, logParameter) => {
   }
 }
 
-const handleBuff = (logTimestamp, logParameter) => {
-  const buff = {
-    timestamp: logTimestamp,
-    buffID: parseInt(logParameter[0], 16),
-    buffName: logParameter[1],
-    remainTime: logParameter[2],
-    actorID: parseInt(logParameter[3], 16),
-    actorName: logParameter[4],
-    targetID: parseInt(logParameter[5], 16),
-    targetName: logParameter[6],
-  }
-}
+// const handleBuff = (logTimestamp, logParameter) => {
+//   const buff = {
+//     timestamp: logTimestamp,
+//     buffID: parseInt(logParameter[0], 16),
+//     buffName: logParameter[1],
+//     remainTime: logParameter[2],
+//     actorID: parseInt(logParameter[3], 16),
+//     actorName: logParameter[4],
+//     targetID: parseInt(logParameter[5], 16),
+//     targetName: logParameter[6],
+//   }
+// }
 
 const parseLogLine = (logSplit) => {
   const [
@@ -113,17 +113,16 @@ const parseLogLine = (logSplit) => {
   }
   case '26': {
     // get buffs
-    handleBuff(logTimestamp, logParameter)
+    // handleBuff(logTimestamp, logParameter)
     break
   }
   case '27': {
     // ["10025A1B", "Minerva Swan", "0000", "0000", "0014", "0000", "0000", "0000", "", "e4351091ce019063f96af05bffa820bf"]
-    console.log(logCode, logTimestamp, logParameter)
     break
   }
   case '30': {
     // buff ends
-    handleBuff(logTimestamp, logParameter)
+    // handleBuff(logTimestamp, logParameter)
     break
   }
   case '31': {
@@ -159,7 +158,7 @@ const parseLogLine = (logSplit) => {
     break
   }
   default: {
-    console.log(logCode, logTimestamp, logParameter)
+    // console.log(logCode, logTimestamp, logParameter)
   }
   }
 }
@@ -173,7 +172,7 @@ const changePrimaryPlayer = (message) => {
     ...primaryCharacter,
     ...message,
   }
-  console.log(primaryCharacter)
+  // console.log(primaryCharacter)
 }
 
 const updateCombatData = (message) => {
@@ -182,11 +181,12 @@ const updateCombatData = (message) => {
     Encounter, Combatant, isActive
   } = message
   // console.log(Encounter, Combatant, isActive)
-  const { duration, title, } = Encounter
+  const { duration, } = Encounter
 
   // update header infos
   let jobCode = -1
   let dps = 0
+  let dpercent = '0%'
   let crit = '0%'
   let dh = '0%'
   let critDh = '0%'
@@ -194,7 +194,7 @@ const updateCombatData = (message) => {
     const job = Combatant.YOU.Job.toUpperCase()
     if (job !== primaryCharacter.classjob) {
       primaryCharacter.classjob = job
-      jobCode = classjob.indexOf(job)
+      jobCode = Object.keys(classjobResources).indexOf(job)
       const jobIcon = document.getElementById('classjob')
       jobIcon.classList.remove(...jobIcon.classList)
       jobIcon.classList.add('classjob', `classjob-${jobCode !== -1 ? jobCode : '00'}`)
@@ -203,10 +203,10 @@ const updateCombatData = (message) => {
     crit = Combatant.YOU['crithit%']
     dh = Combatant.YOU['DirectHitPct']
     critDh = Combatant.YOU['CritDirectHitPct']
+    dpercent = Combatant.YOU['damage%']
   }
 
   const rdps = Encounter.ENCDPS.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-  const dpercent = Combatant.YOU['damage%']
   document.getElementById('duration').innerHTML = duration
   document.getElementById('title').innerHTML = `${dps} DPS / ${rdps} RDPS  (${dpercent})`
   document.getElementById('crit-dh').innerHTML = `${lang('critdh')}: ${dh}/${crit}/${critDh}`

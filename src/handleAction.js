@@ -1,27 +1,33 @@
 import actionResource from '../resources/actions/actions.json'
+import classjobResources from '../resources/classjob/classjob.json'
+import autoAttackIcon from '../resources/actions/000101.png'
 import { lang } from './lang';
 
-const info = document.getElementById('info')
-
-let lastTimestamp = -1;
-let lastActionID = -1;
-let lastCastAction = null;
-let positionalActionCount = 0
-let mispositionalCount = 0
-let castingCount = 0
-let interruptedCount = 0
-let petGhostedActionCount = 0
-const petResources = {
-  actions: [],
-  lastCasting: null,
+const option = {
+  displayTime: 10,
+  scale: 1,
+  checkPositional: true,
+  validatePetAction: true,
 }
-
-let displayTime = 10
-let scale = 1
-const samuraiResources = {
-  action: null,
-  checkPositional: false,
-  kenki: 0
+const resources = {
+  lastTimestamp: -1,
+  lastActionID: -1,
+  lastCastAction: null,
+  positionalActionCount: 0,
+  mispositionalCount: 0,
+  castingCount: 0,
+  interruptedCount: 0,
+  pet: {
+    actions: [],
+    lastCastAction: null,
+    count: 0,
+    ghostedActionCount: 0,
+  },
+  samurai: {
+    action: null,
+    checkPositional: false,
+    kenki: 0
+  }
 }
 
 // job specific values
@@ -49,90 +55,52 @@ const samuraiPositionals = [
 ]
 
 export const cleanup = () => {
-  lastTimestamp = -1
-  lastActionID = -1
-  lastCastAction = null
-  positionalActionCount = 0
-  mispositionalCount = 0
-  castingCount = 0
-  interruptedCount = 0
-  petGhostedActionCount = 0
+  resources.lastTimestamp = -1
+  resources.lastActionID = -1
+  resources.lastCastAction = null
+  resources.positionalActionCount = 0
+  resources.mispositionalCount = 0
+  resources.castingCount = 0
+  resources.interruptedCount = 0
+  resources.pet.ghostedActionCount = 0
 }
 const updateInfo = (classjob) => {
-  const mispositional = (param) => {
-    if (param) {
-      const mispositionalRate = positionalActionCount !== 0 ? Math.trunc((mispositionalCount / positionalActionCount) * 100) : 0
+  const updateMispositional = (condition) => {
+    if (condition && option.checkPositional) {
+      const mispositionalRate = resources.positionalActionCount !== 0 ? ((resources.mispositionalCount / resources.positionalActionCount) * 100).toFixed(0) : 0
       document.getElementById('mispositional').classList.remove('hide')
-      document.getElementById('mispositional').innerHTML = `${lang('mispositional')}: ${mispositionalCount}/${positionalActionCount} (${mispositionalRate}%)`
+      document.getElementById('mispositional').innerHTML = `${lang('mispositional')}: ${resources.mispositionalCount}/${resources.positionalActionCount} (${mispositionalRate}%)`
     }
     else document.getElementById('mispositional').classList.add('hide')
   }
-  // info
-  switch (classjob) {
-  case 'PGL':
-  case 'LNC':
-  case 'MNK':
-  case 'DRG':
-  case 'ROG':
-  case 'NIN': {
-    // positional
-    mispositional(true)
-    break
+  const updatePetInterrupt = (condition) => {
+    if (condition && option.validatePetAction) {
+      const ghostedRate = resources.pet.count !== 0 ? ((resources.pet.ghostedActionCount / resources.pet.count) * 100).toFixed(0) : 0
+      document.getElementById('pet-action').classList.remove('hide')
+      document.getElementById('pet-action').innerHTML = `${lang('pet-action')}: ${resources.pet.ghostedActionCount}/${resources.pet.count} (${ghostedRate}%)`
+    }
+    else document.getElementById('pet-action').classList.add('hide')
   }
-  case 'CNJ':
-  case 'THM':
-  case 'PLD':
-  case 'WHM':
-  case 'BLM':
-  case 'AST':
-  case 'RDM':
-  case 'BLU': {
-    // casting
-    mispositional(false)
-    break
-  }
-  case 'ACN':
-  case 'SMN':
-  case 'SCH': {
-    // casting, ghosted pet actions
-    mispositional(false)
-    break
-  }
-  case 'SAM': {
-    // positional, casting
-    mispositional(true)
-    break
-  }
-  case 'ADV':
-  case 'GLA':
-  case 'MRD':
-  case 'ARC':
-  case 'CRP':
-  case 'BSM':
-  case 'ARM':
-  case 'GSM':
-  case 'LTW':
-  case 'ALC':
-  case 'CUL':
-  case 'MIN':
-  case 'BOT':
-  case 'FSH':
-  case 'WAR':
-  case 'BRD':
-  case 'MCH':
-  case 'DRK':
-  case 'GNB':
-  case 'DNC':
-  default: {
-    mispositional(false)
-  }
-  }
-}
-export const getPositionalCounts = () => ({ positionalActionCount, mispositionalCount })
-export const updateSpeed = (value) => { displayTime = value }
-export const updateScale = (value) => { scale = value }
 
-const appendErrorIcon = (icon, errorClass) => {
+  console.log(classjob, classjobResources)
+  updateMispositional(classjobResources[classjob].includes('mispositional'))
+  // updateCasting(classjobResources[classjob].includes('casting'))
+  updatePetInterrupt(classjobResources[classjob].includes('pet-action'))
+}
+export const getPositionalCounts = () => ({ positionalActionCount: resources.positionalActionCount, mispositionalCount: resources.mispositionalCount })
+export const updateSpeed = (value) => { option.displayTime = value }
+export const updateScale = (value) => { option.scale = value }
+export const updateCheckPositional = (value) => {
+  option.checkPositional = value
+  resources.positionalActionCount = 0
+  resources.mispositionalCount = 0
+}
+export const updatePetValidation = (value) => {
+  option.validatePetAction = value
+  resources.pet.ghostedActionCount = 0
+}
+
+export const appendErrorIcon = (icon, errorClass) => {
   icon.classList.add(errorClass)
   const iconImage = icon.firstChild
   // console.log(icon.classList)
@@ -148,17 +116,19 @@ const appendErrorIcon = (icon, errorClass) => {
 }
 
 export const unsubscribePet = (petID) => {
-  petResources.actions = petResources.actions.filter((action) => {
-    if (action.actorID === petID) {
-      appendErrorIcon(action.icon, 'mispositional')
-      petGhostedActionCount++
-    }
-    return false
-  })
+  if (option.validatePetAction) {
+    resources.pet.actions = resources.pet.actions.filter((action) => {
+      if (action.actorID === petID) {
+        appendErrorIcon(action.icon, 'interrupted')
+        resources.pet.ghostedActionCount++
+      }
+      return false
+    })
+  }
 }
 
 export const handleHit = (logParameter) => {
-  petResources.actions = petResources.actions.filter((action) => action.hitID !== parseInt(logParameter[2], 16))
+  resources.pet.actions = resources.pet.actions.filter((action) => action.hitID !== parseInt(logParameter[2], 16) || !option.validatePetAction)
 }
 
 export const handleInterrupt = (primaryCharacter, logParameter, active) => {
@@ -176,15 +146,15 @@ export const handleInterrupt = (primaryCharacter, logParameter, active) => {
   }
 
   if (inturruptedAction.actorID === primaryCharacter.charID
-  && inturruptedAction.actorID === lastCastAction.actorID) {
-    interruptedCount++
-    appendErrorIcon(lastCastAction.icon, 'interrupted')
+  && inturruptedAction.actorID === resources.lastCastAction.actorID) {
+    resources.interruptedCount++
+    appendErrorIcon(resources.lastCastAction.icon, 'interrupted')
     // if (active) updateInfo(primaryCharacter.classjob)
   }
   else if (inturruptedAction.actorID === primaryCharacter.petID
-  && inturruptedAction.actorID === petResources.lastCasting.actorID) {
-    petGhostedActionCount++
-    appendErrorIcon(petResources.lastCasting.icon, 'interrupted')
+  && inturruptedAction.actorID === resources.pet.lastCasting.actorID) {
+    resources.pet.ghostedActionCount++
+    appendErrorIcon(resources.pet.lastCasting.icon, 'interrupted')
   }
 }
 
@@ -192,16 +162,16 @@ export const handleJobGauge = (primaryCharacter, logParameter, active) => {
   if (parseInt(logParameter[0], 16) === primaryCharacter.charID) {
     if (logParameter[1] === '22') { // sam
       const kenki = parseInt(logParameter[2], 16) & 0xFF
-      if (samuraiResources.checkPositional) {
-        if (kenki - samuraiResources.kenki !== 10) {
+      if (resources.samurai.checkPositional) {
+        if (kenki - resources.samurai.kenki !== 10) {
           // samurai mispositional
-          appendErrorIcon(samuraiResources.action.icon, 'mispositional')
-          mispositionalCount++
+          appendErrorIcon(resources.samurai.action.icon, 'mispositional')
+          resources.mispositionalCount++
           if (active) updateInfo(primaryCharacter.classjob)
         }
-        samuraiResources.checkPositional = false
+        resources.samurai.checkPositional = false
       }
-      samuraiResources.kenki = kenki
+      resources.samurai.kenki = kenki
     }
   }
 }
@@ -209,27 +179,27 @@ export const handleJobGauge = (primaryCharacter, logParameter, active) => {
 const checkPositional = (action, logParameter) => {
   if (monkPositionals.includes(action.actionID)) {
     // monk rear/flank check
-    positionalActionCount++
+    resources.positionalActionCount++
 
     return logParameter.slice(8, 13).includes('1B')
   }
   if (dragoonPositionals.includes(action.actionID)) {
     // dragoon rear/flank check
-    positionalActionCount++
+    resources.positionalActionCount++
 
     const succeedCode = action.actionID === 88 ? '11B' : '1B' // 桜花は11Bにコードが変わる
     return logParameter.slice(8, 15).includes(succeedCode)
   }
   if (ninjaPositionals.includes(action.actionID)) {
     // ninja rear/flank check
-    positionalActionCount++
+    resources.positionalActionCount++
 
     const succeedCode = '11B'
     return logParameter.slice(12, 15).includes(succeedCode)
   }
   if (action.actionID === 2258) {
     // だまし討ち
-    positionalActionCount++
+    resources.positionalActionCount++
 
     const succeedCode = '1E71' // 1E710003 1E710203 1E710303
     // failedCode: 00710003 00710203
@@ -237,13 +207,12 @@ const checkPositional = (action, logParameter) => {
   }
   if (samuraiPositionals.includes(action.actionID)) {
     // samurai rear/flank check
-    positionalActionCount++
+    resources.positionalActionCount++
     const comboCode = '4F71' // 4F710*03
-    console.log(logParameter)
     if (logParameter[6].includes(comboCode)) { // combo bonus.
       // eval kenki
-      samuraiResources.action = action
-      samuraiResources.checkPositional = true
+      resources.samurai.action = action
+      resources.samurai.checkPositional = true
       return true
       // this will always return true, continue check on handleJobGauge()
     }
@@ -279,7 +248,7 @@ const showActionIcon = (action) => {
   }
   let castingBarLength = 0
   if (action.classes.includes('casting') && action.castTime !== 0) {
-    castingBarLength = (action.castTime / (displayTime * scale))
+    castingBarLength = (action.castTime / (option.displayTime * option.scale))
     image.style.paddingRight = `${castingBarLength}vw`
   }
   icon.animate(
@@ -288,7 +257,7 @@ const showActionIcon = (action) => {
       visibility: ['visible', 'visible']
     },
     {
-      duration: displayTime * 1000 + action.castTime * 10,
+      duration: option.displayTime * 1000 + action.castTime * 10,
       iterations: 1,
     }
   )
@@ -300,7 +269,7 @@ const autoAttack = () => {
   const icon = document.createElement('div')
   icon.classList.add('icon')
   const image = new Image()
-  image.src = 'https://xivapi.com/i/000000/000101.png'
+  image.src = autoAttackIcon
   icon.appendChild(image)
   icon.animate(
     {
@@ -308,7 +277,7 @@ const autoAttack = () => {
       visibility: ['visible', 'visible']
     },
     {
-      duration: displayTime * 1000,
+      duration: option.displayTime * 1000,
       iterations: 1,
     }
   )
@@ -317,7 +286,7 @@ const autoAttack = () => {
   setTimeout(() => {
     try { document.getElementById('auto-attack-window').removeChild(icon) }
     catch {} // ignore error
-  }, displayTime * 1000)
+  }, option.displayTime * 1000)
 }
 
 export const handleAction = async (primaryCharacter, logCode, logTimestamp, logParameter, active) => {
@@ -341,10 +310,10 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   }
 
   // AoE action will make multiple logs and no duplicate allowed
-  if ((action.timestamp === lastTimestamp && action.actionID === lastActionID)) return
+  if ((action.timestamp === resources.lastTimestamp && action.actionID === resources.lastActionID)) return
 
-  lastTimestamp = action.timestamp
-  lastActionID = action.actionID
+  resources.lastTimestamp = action.timestamp
+  resources.lastActionID = action.actionID
 
   // only parse primaryCharacter and pet action
   if (action.actorID === primaryCharacter.charID) {
@@ -354,9 +323,12 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   else if (primaryCharacter.petID === action.actorID) {
     actionWindow = document.getElementById('pet-actions-window')
     if (logCode !== '20') {
-      petResources.actions.push(action)
+      resources.pet.actions.push(action)
+      resources.pet.count++
     }
-    else petResources.lastCasting = action
+    else {
+      resources.pet.lastCasting = action
+    }
   }
   else return
 
@@ -390,16 +362,16 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   else {
     // add classes
     const casting = logCode === '20'
-    const positional = checkPositional(action, logParameter)
+    const positional = option.checkPositional ? checkPositional(action, logParameter) : true
     const gcd = action.CooldownGroup.includes(58)
     if (casting) {
-      castingCount++
+      resources.castingCount++
       action.classes.push('casting')
-      lastCastAction = action
+      resources.lastCastAction = action
     }
     if (!positional) {
       action.classes.push('mispositional')
-      mispositionalCount++
+      resources.mispositionalCount++
     }
     if (gcd) action.classes.push('gcd')
     else action.classes.push('ogcd')
@@ -412,6 +384,6 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   setTimeout(() => {
     try { actionWindow.removeChild(icon) }
     catch {} // ignore error
-  }, displayTime * 1000 + action.castTime * 100)
+  }, option.displayTime * 1000 + action.castTime * 100)
   if (active) updateInfo(primaryCharacter.classjob)
 }

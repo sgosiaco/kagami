@@ -1,5 +1,6 @@
 import previewActions from '../resources/preview.json'
 import { setLanguage, updateUi } from './lang';
+import { appendErrorIcon, updateCheckPositional, updatePetValidation } from './handleAction'
 
 const { updateSpeed, updateScale } = require('./handleAction');
 
@@ -22,6 +23,8 @@ const settingsPetActionWindow = document.getElementById('settings-pet-window')
 const languageForm = document.getElementById('lang-form')
 const aaWindowChecker = document.getElementById('auto-attack-switch')
 const petActionsChecker = document.getElementById('pet-actions-switch')
+const positionalChecker = document.getElementById('positional-switch')
+const validatePetChecker = document.getElementById('validate-pet-switch')
 const displayTimeForm = document.getElementById('speed-form')
 const scaleForm = document.getElementById('scale-form')
 let settings = null
@@ -37,6 +40,7 @@ const cleanupPreview = () => {
 const animatePreview = () => {
   cleanupPreview()
 
+  const checkPositional = settings['check-positionals']
   previewActions['auto-attacks'].timing.forEach((aaTiming) => {
     previewTimeouts.push(setTimeout(() => {
       settingsAAWindow.insertAdjacentHTML('beforeend', previewActions['auto-attacks'].element)
@@ -58,6 +62,9 @@ const animatePreview = () => {
       settingsPlayerActionWindow.insertAdjacentHTML('beforeend', action.element)
       const icon = settingsPlayerActionWindow.lastChild
       icon.firstChild.style.paddingRight = `${castingBarLength}vw`
+      if (checkPositional && action.classes.includes('mispositional')) {
+        appendErrorIcon(icon, 'mispositional')
+      }
       icon.animate(
         {
           right: [`-${castingBarLength}vw`, '100%'],
@@ -70,10 +77,11 @@ const animatePreview = () => {
       )
     }, action.timing * 1000))
   })
-  previewActions['pet-actions'].timing.forEach((aaTiming) => {
+  previewActions['pet-actions'].timing.forEach((aaTiming, index) => {
     previewTimeouts.push(setTimeout(() => {
       settingsPetActionWindow.insertAdjacentHTML('beforeend', previewActions['pet-actions'].element)
-      settingsPetActionWindow.lastChild.animate(
+      const icon = settingsPetActionWindow.lastChild
+      icon.animate(
         {
           right: [0, '100%'],
           visibility: ['visible', 'visible']
@@ -83,6 +91,11 @@ const animatePreview = () => {
           iterations: 1,
         }
       )
+      if (settings['validate-pet-actions'] && index === 0) {
+        setTimeout(() => {
+          appendErrorIcon(icon, 'interrupted')
+        }, 4000)
+      }
     }, aaTiming * 1000))
   })
 }
@@ -191,6 +204,20 @@ const uiControl = (param) => {
         saveSettings()
       })
     }
+  })
+  positionalChecker.addEventListener('click', (e) => {
+    const { checked } = e.target
+    settings['check-positionals'] = checked
+    updateCheckPositional(checked)
+    animatePreview()
+    saveSettings()
+  })
+  validatePetChecker.addEventListener('click', (e) => {
+    const { checked } = e.target
+    settings['validate-pet-actions'] = checked
+    updatePetValidation(checked)
+    animatePreview()
+    saveSettings()
   })
   displayTimeForm.addEventListener('change', (e) => {
     const displayTime = parseInt(e.target.value, 10)

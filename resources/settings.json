@@ -5,5 +5,6 @@
   "display-time": 10,
   "scale": 1,
   "check-positionals": true,
+  "validate-pet-actions": true,
   "lang": "EN"
 }
