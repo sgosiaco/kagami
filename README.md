@@ -12,7 +12,7 @@ show your FFXIV skill rotations with *kagami*, looking back your rotations with 
 
 [![youtube-smn-pov](https://img.youtube.com/vi/mkAPPWO0x0A/0.jpg)](https://youtu.be/mkAPPWO0x0A)
 
-- [SMN PoV](https://youtu.be/mkAPPWO0x0A). can check egi/bahamut pet actions👀, and use with other overlay([MOPIMOPI](https://github.com/HAERUHAERU/mopimopi))
+- [SMN PoV](https://youtu.be/mkAPPWO0x0A). can check egi/bahamut pet actions. use with other overlay([MOPIMOPI](https://github.com/HAERUHAERU/mopimopi))
 
 ## features🚀
 
@@ -22,13 +22,12 @@ show your FFXIV skill rotations with *kagami*, looking back your rotations with 
 - track player casting and its interrupt.
 - melee positional(rear/flank) check
 - pet actions validation
-- rich settings✨
 
 
 ## installation🔨
 
 See [installation](https://github.com/ramram1048/kagami/blob/master/installation.md).
-current *kagami* works with: FFXIV patch `5.25`
+current *kagami* works good with: FFXIV patch `5.25`
 
 
 ## known issues🚧
@@ -41,7 +40,6 @@ current *kagami* works with: FFXIV patch `5.25`
 
 ## upcoming features⚡
 
-- off positional check or pet actions validation setting
 - theme customization
 
 

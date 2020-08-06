@@ -1,9 +1,47 @@
-[
-  "ADV",
-  "GLA", "PGL", "MRD", "LNC", "ARC", "CNJ", "THM",
-  "CRP", "BSM", "ARM", "GSM", "LTW", "WVR", "ALC", "CUL",
-  "MIN", "BOT", "FSH",
-  "PLD", "MNK", "WAR", "DRG", "BRD", "WHM", "BLM",
-  "ACN", "SMN", "SCH", "ROG", "NIN", "MCH", "DRK", "AST",
-  "SAM", "RDM", "BLU", "GNB", "DNC"
-]
+{
+  "ADV": [],
+
+  "GLA": [],
+  "PGL": ["mispositional"],
+  "MRD": [],
+  "LNC": ["mispositional"],
+  "ARC": [],
+  "CNJ": ["casting"],
+  "THM": ["casting"],
+
+  "CRP": [],
+  "BSM": [],
+  "ARM": [],
+  "GSM": [],
+  "LTW": [],
+  "WVR": [],
+  "ALC": [],
+  "CUL": [],
+
+  "MIN": [],
+  "BOT": [],
+  "FSH": [],
+
+  "PLD": ["casting"],
+  "MNK": ["mispositional"],
+  "WAR": [],
+  "DRG": ["mispositional"],
+  "BRD": [],
+  "WHM": ["casting"],
+  "BLM": ["casting"],
+
+  "ACN": ["casting", "pet-action"],
+  "SMN": ["casting", "pet-action"],
+  "SCH": ["casting", "pet-action"],
+  "ROG": ["mispositional"],
+  "NIN": ["mispositional"],
+  "MCH": [],
+  "DRK": [],
+  "AST": ["casting"],
+
+  "SAM": ["mispositional", "casting"],
+  "RDM": ["casting"],
+  "BLU": ["casting"],
+  "GNB": [],
+  "DNC": []
+}

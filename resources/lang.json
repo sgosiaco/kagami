@@ -19,7 +19,7 @@
   },
   "element": {
     "desc": {
-      "JP": "見て、感じて、考え直せ。",
+      "JP": "負けは次に繋がるチャンスです。",
       "EN": "mirror your moves, better you move."
     },
     "pin-header-tooltip": {
@@ -46,6 +46,18 @@
       "JP": "ペットアクション表示",
       "EN": "Show pet actions"
     },
+    "check-positional-tooltip": {
+      "JP": "向き指定ミスを表示",
+      "EN": "check positional miss"
+    },
+    "validate-pet-tooltip": {
+      "JP": "無効ペットアクションの確認<span class='orange'>*</span>",
+      "EN": "validate pet actions<span class='orange'>*</span>"
+    },
+    "validate-pet-tooltip-2": {
+      "JP": "ペットアクションの成功/失敗を確認します。<br>確認までは4秒くらいの時間が掛かります。<br><span class='orange'>*低レベル木人に殴ると全アクションが無効のように見えるバグがあります。</span>",
+      "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>"
+    },
     "display-time-tooltip": {
       "JP": "アイコン表示時間",
       "EN": "display time"
@@ -65,8 +77,12 @@
       "EN": "D.Hit/C.Hit/C.D.Hit"
     },
     "mispositional": {
-      "JP": "向き指定失敗",
+      "JP": "向き指定失敗数",
       "EN": "mispositionals"
+    },
+    "pet-action": {
+      "JP": "無効ペットアクション数",
+      "EN": "ghosted pet actions"
     }
   },
   "temp": {

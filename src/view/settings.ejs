@@ -51,28 +51,42 @@
     </form>
   </div>
   <div class="menu-item">
-    <div id="auto-attacks-tooltip">
-      show auto-attacks
+    <div class="flex-row">
+      <i class="material-icons">photo_size_select_large</i>
+      <span id="icon-scale-tooltip">icon scale</span>
     </div>
-    <input type="checkbox" id="auto-attack-switch" checked>
-    <label for="auto-attack-switch" class="switch">
-      <div class="switch-track"></div>
-      <div class="switch-thumb-underlay">
-        <div class="switch-thumb"></div>
+    <form id="scale-form" class="flex-row radio-container"> 
+      <div>
+        <input type="radio" id="scale-0.5" name="scale-radio" value="0.5">
+        <label class="radio-label" for="scale-0.5">
+          <div>0.5x</div>
+        </label>
       </div>
-    </label>
-  </div>
-  <div class="menu-item">
-    <div id="pet-actions-tooltip">
-      show pet actions
-    </div>
-    <input type="checkbox" id="pet-actions-switch" checked>
-    <label for="pet-actions-switch" class="switch">
-      <div class="switch-track"></div>
-      <div class="switch-thumb-underlay">
-        <div class="switch-thumb"></div>
+      <div>
+        <input type="radio" id="scale-0.8" name="scale-radio" value="0.8">
+        <label class="radio-label" for="scale-0.8">
+          <div>0.8x</div>
+        </label>
       </div>
-    </label>
+      <div>
+        <input type="radio" id="scale-1" name="scale-radio" value="1" checked>
+        <label class="radio-label" for="scale-1">
+          <div>1x</div>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="scale-1.5" name="scale-radio" value="1.5">
+        <label class="radio-label" for="scale-1.5">
+          <div>1.5x</div>
+        </label>
+      </div>
+      <div>
+        <input type="radio" id="scale-2" name="scale-radio" value="2">
+        <label class="radio-label" for="scale-2">
+          <div>2x</div>
+        </label>
+      </div>
+    </form>
   </div>
   <div class="menu-item">
     <div class="flex-row">
@@ -114,52 +128,42 @@
   </div>
   <div class="menu-item">
     <div class="flex-row">
-      <i class="material-icons">photo_size_select_large</i>
-      <span id="icon-scale-tooltip">icon scale</span>
+      <img src="../../resources/actions/000101.png">
+      <div id="auto-attacks-tooltip">
+        show auto-attacks
+      </div>
     </div>
-    <form id="scale-form" class="flex-row radio-container"> 
-      <div>
-        <input type="radio" id="scale-0.5" name="scale-radio" value="0.5">
-        <label class="radio-label" for="scale-0.5">
-          <div>0.5x</div>
-        </label>
+    <input type="checkbox" id="auto-attack-switch" checked>
+    <label for="auto-attack-switch" class="switch">
+      <div class="switch-track"></div>
+      <div class="switch-thumb-underlay">
+        <div class="switch-thumb"></div>
       </div>
-      <div>
-        <input type="radio" id="scale-0.8" name="scale-radio" value="0.8">
-        <label class="radio-label" for="scale-0.8">
-          <div>0.8x</div>
-        </label>
-      </div>
-      <div>
-        <input type="radio" id="scale-1" name="scale-radio" value="1" checked>
-        <label class="radio-label" for="scale-1">
-          <div>1x</div>
-        </label>
-      </div>
-      <div>
-        <input type="radio" id="scale-1.5" name="scale-radio" value="1.5">
-        <label class="radio-label" for="scale-1.5">
-          <div>1.5x</div>
-        </label>
-      </div>
-      <div>
-        <input type="radio" id="scale-2" name="scale-radio" value="2">
-        <label class="radio-label" for="scale-2">
-          <div>2x</div>
-        </label>
-      </div>
-    </form>
+    </label>
   </div>
-  <!-- <hr class="divider">
   <div class="menu-item">
     <div class="flex-row">
-      <i class="material-icons">control_camera</i>
-      <div class="flex-column">
-        <span>check positional miss</span>
-        <span>(SAM not supported)</span>
+      <img src="../../resources/actions/000509.png">
+      <div id="pet-actions-tooltip">
+        show pet actions
       </div>
     </div>
-    <input type="checkbox" id="positional-switch" checked disabled>
+    <input type="checkbox" id="pet-actions-switch" checked>
+    <label for="pet-actions-switch" class="switch">
+      <div class="switch-track"></div>
+      <div class="switch-thumb-underlay">
+        <div class="switch-thumb"></div>
+      </div>
+    </label>
+  </div>
+  <div class="menu-item">
+    <div class="flex-row">
+      <img src="../../resources/actions/000830.png">
+      <div id="check-positional-tooltip">
+        check positional miss
+      </div>
+    </div>
+    <input type="checkbox" id="positional-switch" checked>
     <label for="positional-switch" class="switch">
       <div class="switch-track"></div>
       <div class="switch-thumb-underlay">
@@ -169,20 +173,25 @@
   </div>
   <div class="menu-item">
     <div class="flex-row">
-      <i class="material-icons">textsms</i>
-      <span>show casting actions</span>
+      <img src="../../resources/actions/002692.png">
+      <div id="validate-pet-tooltip">validate pet actions<span class="orange">*</span></div>
     </div>
-    <input type="checkbox" id="casting-switch" checked disabled>
-    <label for="casting-switch" class="switch">
+    <input type="checkbox" id="validate-pet-switch" checked>
+    <label for="validate-pet-switch" class="switch">
       <div class="switch-track"></div>
       <div class="switch-thumb-underlay">
         <div class="switch-thumb"></div>
       </div>
     </label>
-  </div> -->
+    <div id="validate-pet-tooltip-2" class="mouse-tooltip">
+      validate pet action finished successfully or not. <br>
+      this takes about 4 secs after action. <br>
+      <span class="orange">*there's an bug with low-level striking dummies.</span>
+    </div>
+  </div>
   <hr class="divider">
   <div class="contact flex-column">
-    <div class="black">kagami v0.0.1</div>
+    <div class="black">kagami v1.3.0</div>
     <div id="patch-info">FFXIV patch version: v5.25</div>
     <div>💬Contact: discord ram#5923</div>
   </div>
