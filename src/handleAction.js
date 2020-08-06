@@ -82,7 +82,6 @@ const updateInfo = (classjob) => {
     else document.getElementById('pet-action').classList.add('hide')
   }
 
-  console.log(classjob, classjobResources)
   updateMispositional(classjobResources[classjob].includes('mispositional'))
   // updateCasting(classjobResources[classjob].includes('casting'))
   updatePetInterrupt(classjobResources[classjob].includes('pet-action'))
@@ -181,21 +180,21 @@ const checkPositional = (action, logParameter) => {
     // monk rear/flank check
     resources.positionalActionCount++
 
-    return logParameter.slice(8, 13).includes('1B')
+    return logParameter.slice(8, 22).includes('1B')
   }
   if (dragoonPositionals.includes(action.actionID)) {
     // dragoon rear/flank check
     resources.positionalActionCount++
 
     const succeedCode = action.actionID === 88 ? '11B' : '1B' // 桜花は11Bにコードが変わる
-    return logParameter.slice(8, 15).includes(succeedCode)
+    return logParameter.slice(8, 22).includes(succeedCode)
   }
   if (ninjaPositionals.includes(action.actionID)) {
     // ninja rear/flank check
     resources.positionalActionCount++
 
     const succeedCode = '11B'
-    return logParameter.slice(12, 15).includes(succeedCode)
+    return logParameter.slice(8, 22).includes(succeedCode)
   }
   if (action.actionID === 2258) {
     // だまし討ち
