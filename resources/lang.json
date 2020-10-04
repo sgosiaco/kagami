@@ -35,7 +35,7 @@
     "reset-encounter-tooltip": {
       "JP": "エンカウントリセット",
       "EN": "reset encounter",
-      "Fr": "réinitialiser le combat"
+      "FR": "réinitialiser le combat"
     },
     "settings-tooltip": {
       "JP": "設定",
