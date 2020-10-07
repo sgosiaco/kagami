@@ -70,7 +70,7 @@
     "validate-pet-tooltip-2": {
       "JP": "ペットアクションの成功/失敗を確認します。<br>確認までは4秒くらいの時間が掛かります。<br><span class='orange'>*低レベル木人に殴ると全アクションが無効のように見えるバグがあります。</span>",
       "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>",
-      "FR": "s'assure que les actions du familier se soient correctement terminées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*ll existe un bug avec les mannequins d'entrainement de bas niveaux.</span>"
+      "FR": "s'assure que les actions du familier se soient correctement terminées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*il existe un bug avec les mannequins d'entrainement de bas niveaux.</span>"
     },
     "display-time-tooltip": {
       "JP": "アイコン表示時間",
