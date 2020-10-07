@@ -35,7 +35,7 @@
     "reset-encounter-tooltip": {
       "JP": "エンカウントリセット",
       "EN": "reset encounter",
-      "Fr": "réinitialiser le combat"
+      "FR": "réinitialiser le combat"
     },
     "settings-tooltip": {
       "JP": "設定",
@@ -49,13 +49,13 @@
     },
     "auto-attacks-tooltip": {
       "JP": "オートーアタック表示",
-      "EN": "Show auto-attacks",
-      "FR": "Afficher les attaques automatiques"
+      "EN": "show auto-attacks",
+      "FR": "afficher les attaques automatiques"
     },
     "pet-actions-tooltip": {
       "JP": "ペットアクション表示",
-      "EN": "Show pet actions",
-      "FR": "Afficher les actions du familier"
+      "EN": "show pet actions",
+      "FR": "afficher les actions du familier"
     },
     "check-positional-tooltip": {
       "JP": "向き指定ミスを表示",
@@ -70,12 +70,12 @@
     "validate-pet-tooltip-2": {
       "JP": "ペットアクションの成功/失敗を確認します。<br>確認までは4秒くらいの時間が掛かります。<br><span class='orange'>*低レベル木人に殴ると全アクションが無効のように見えるバグがあります。</span>",
       "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>",
-      "FR": "vérifier que les actions du familier ce soient correctement déroulées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*Il existe un bug avec les mannequins d'entrainement de bas niveaux.</span>"
+      "FR": "s'assure que les actions du familier se soient correctement terminées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*ll existe un bug avec les mannequins d'entrainement de bas niveaux.</span>"
     },
     "display-time-tooltip": {
       "JP": "アイコン表示時間",
-      "EN": "display time",
-      "FR": "afficher le temps"
+      "EN": "icon display time",
+      "FR": "durée d'affichage des icônes"
     },
     "icon-scale-tooltip": {
       "JP": "アイコンサイズ",
