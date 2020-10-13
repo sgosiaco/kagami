@@ -2,101 +2,124 @@
   "lang": {
     "JP": {
       "JP": "日本語",
-      "EN": "日本語"
+      "EN": "日本語",
+      "FR": "日本語"
     },
     "EN": {
       "JP": "English",
-      "EN": "English"
-    },
-    "DE": {
-      "JP": "Français",
-      "EN": "Français"
+      "EN": "English",
+      "FR": "English"
     },
     "FR": {
+      "JP": "Français",
+      "EN": "Français",
+      "FR": "Français"
+    },
+    "DE": {
       "JP": "Deutsch",
-      "EN": "Deutsch"
+      "EN": "Deutsch",
+      "FR": "Deutsch"
     }
   },
   "element": {
     "desc": {
       "JP": "負けは次に繋がるチャンスです。",
-      "EN": "mirror your moves, better you move."
+      "EN": "mirror your moves, better you move.",
+      "FR": "de l'observation, nait la perfection."
     },
     "pin-header-tooltip": {
       "JP": "ヘッダを固定",
-      "EN": "always show header"
+      "EN": "always show header",
+      "FR": "toujours afficher l'entête"
     },
     "reset-encounter-tooltip": {
       "JP": "エンカウントリセット",
-      "EN": "reset encounter"
+      "EN": "reset encounter",
+      "FR": "réinitialiser le combat"
     },
     "settings-tooltip": {
       "JP": "設定",
-      "EN": "settings"
+      "EN": "settings",
+      "FR": "paramètres"
     },
     "lang-tooltip": {
       "JP": "言語",
-      "EN": "language"
+      "EN": "language",
+      "FR": "langues"
     },
     "auto-attacks-tooltip": {
       "JP": "オートーアタック表示",
-      "EN": "Show auto-attacks"
+      "EN": "show auto-attacks",
+      "FR": "afficher les attaques automatiques"
     },
     "pet-actions-tooltip": {
       "JP": "ペットアクション表示",
-      "EN": "Show pet actions"
+      "EN": "show pet actions",
+      "FR": "afficher les actions du familier"
     },
     "check-positional-tooltip": {
       "JP": "向き指定ミスを表示",
-      "EN": "check positional miss"
+      "EN": "check positional miss",
+      "FR": "vérifier les actions directionnelles manquées"
     },
     "validate-pet-tooltip": {
       "JP": "無効ペットアクションの確認<span class='orange'>*</span>",
-      "EN": "validate pet actions<span class='orange'>*</span>"
+      "EN": "validate pet actions<span class='orange'>*</span>",
+      "FR": "vérifier les actions du familier<span class='orange'>*</span>"
     },
     "validate-pet-tooltip-2": {
       "JP": "ペットアクションの成功/失敗を確認します。<br>確認までは4秒くらいの時間が掛かります。<br><span class='orange'>*低レベル木人に殴ると全アクションが無効のように見えるバグがあります。</span>",
-      "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>"
+      "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>",
+      "FR": "s'assure que les actions du familier se soient correctement terminées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*il existe un bug avec les mannequins d'entrainement de bas niveaux.</span>"
     },
     "display-time-tooltip": {
       "JP": "アイコン表示時間",
-      "EN": "display time"
+      "EN": "icon display time",
+      "FR": "durée d'affichage des icônes"
     },
     "icon-scale-tooltip": {
       "JP": "アイコンサイズ",
-      "EN": "icon scale"
+      "EN": "icon scale",
+      "FR": "taille des icônes"
     },
     "patch-info": {
       "JP": "パッチ5.35対応済み",
-      "EN": "FFXIV patch version: v5.35"
+      "EN": "FFXIV patch version: v5.35",
+      "FR": "version du patch FFXIV: v5.35"
     }
   },
   "map": {
     "critdh": {
       "JP": "D.Hit/C.Hit/C.D.Hit",
-      "EN": "D.Hit/C.Hit/C.D.Hit"
+      "EN": "D.Hit/C.Hit/C.D.Hit",
+      "FR": "D.Hit/C.Hit/C.D.Hit"
     },
     "mispositional": {
       "JP": "向き指定失敗数",
-      "EN": "mispositionals"
+      "EN": "mispositionals",
+      "FR": "action directionnelles ratées"
     },
     "pet-action": {
       "JP": "無効ペットアクション数",
-      "EN": "ghosted pet actions"
+      "EN": "ghosted pet actions",
+      "FR": "actions du familier invalides"
     }
   },
   "temp": {
     "positionals-tooltip": {
       "JP": "向き指定失敗を表示",
-      "EN": "show mispositionals"
+      "EN": "show mispositionals",
+      "FR": "afficher les actions directionnelles ratées"
     },
     "casting-tooltip": {
       "JP": "詠唱アイコンを表示",
-      "EN": "show casting icons"
+      "EN": "show casting icons",
+      "FR": "afficher l'incantation des sorts"
     },
     "interrupt-tooltip": {
       "JP": "詠唱キャンセルを表示",
-      "EN": "show casting interrupt"
+      "EN": "show casting interrupt",
+      "FR": "afficher l'interruption des sorts"
     }
   }
 }
