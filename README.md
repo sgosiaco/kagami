@@ -1,6 +1,6 @@
 # kagami
 
-*kagami* is **mirror** in Japanese. 
+*kagami* is **mirror** in Japanese.
 
 show your FFXIV skill rotations with *kagami*, looking back your rotations with *kagami*!
 
@@ -23,12 +23,10 @@ show your FFXIV skill rotations with *kagami*, looking back your rotations with 
 - melee positional(rear/flank) check
 - pet actions validation
 
-
 ## installation🔨
 
 See [installation](https://github.com/ramram1048/kagami/blob/master/installation.md).
-current *kagami* works good with: FFXIV patch `5.30`
-
+current *kagami* works good with: FFXIV patch `5.35`
 
 ## known issues🚧
 
@@ -37,11 +35,9 @@ current *kagami* works good with: FFXIV patch `5.30`
 - item, mount icons are coming out later than expected timing
 - bug on pet action validation when hitting low-level striking dummies(see [#8](https://github.com/ramram1048/kagami/issues/8))
 
-
 ## upcoming features⚡
 
 - theme customization
-
 
 ## contact💬
 
