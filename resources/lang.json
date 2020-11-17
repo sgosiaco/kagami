@@ -72,7 +72,7 @@
       "JP": "ペットアクション表示",
       "EN": "show pet actions",
       "FR": "afficher les actions du familier",
-      "CN": "显示宠物动作"
+      "CN": "显示宠物行为"
     },
     "check-positional-tooltip": {
       "JP": "向き指定ミスを表示",
@@ -84,13 +84,13 @@
       "JP": "無効ペットアクションの確認<span class='orange'>*</span>",
       "EN": "validate pet actions<span class='orange'>*</span>",
       "FR": "vérifier les actions du familier<span class='orange'>*</span>",
-      "CN": "验证宠物动作<span class='orange'>*</span>"
+      "CN": "验证宠物行为<span class='orange'>*</span>"
     },
     "validate-pet-tooltip-2": {
       "JP": "ペットアクションの成功/失敗を確認します。<br>確認までは4秒くらいの時間が掛かります。<br><span class='orange'>*低レベル木人に殴ると全アクションが無効のように見えるバグがあります。</span>",
       "EN": "validate pet action finished successfully or not.<br>this takes about 4 secs after action. <br><span class='orange'>*there's an bug with low-level striking dummies.</span>",
       "FR": "s'assure que les actions du familier se soient correctement terminées ou non.<br>cela prend environ 4 secondes après l'action.<br><span class='orange'>*il existe un bug avec les mannequins d'entrainement de bas niveaux.</span>",
-      "CN": "验证宠物动作是否成功。<br>需要4秒左右的时间。<br><span class='orange'>*在攻击低级木人时会有所有动作均无效的BUG。</span>"
+      "CN": "验证宠物行为是否成功。<br>需要4秒左右的时间。<br><span class='orange'>*在攻击低级木人时会有所有行为均无效的BUG。</span>"
     },
     "display-time-tooltip": {
       "JP": "アイコン表示時間",
@@ -128,7 +128,7 @@
       "JP": "無効ペットアクション数",
       "EN": "ghosted pet actions",
       "FR": "actions du familier invalides",
-      "CN": "宠物技能无效次数"
+      "CN": "宠物行为无效次数"
     }
   },
   "temp": {
