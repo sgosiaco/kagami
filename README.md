@@ -26,7 +26,7 @@ show your FFXIV skill rotations with *kagami*, looking back your rotations with 
 ## installation🔨
 
 See [installation](https://github.com/ramram1048/kagami/blob/master/installation.md).
-current *kagami* works good with: FFXIV patch `5.35`
+current *kagami* works good with: FFXIV patch `5.45`
 
 ## known issues🚧
 
