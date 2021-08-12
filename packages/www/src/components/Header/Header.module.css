@@ -1,0 +1,93 @@
+.wrap {
+  position: relative;
+  top: 0;
+  z-index: var(--z-index-header);
+  display: flex;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 0;
+  color: var(--color-text);
+  background-color: var(--color-header);
+  cursor: grab;
+  transition: top 200ms ease-in-out, margin-bottom 200ms ease-in-out;
+}
+.wrap.not-pinned {
+  top: -48px;
+  margin-bottom: -48px;
+}
+.wrap.not-pinned:hover {
+  top: 0;
+  margin-bottom: 0;
+}
+
+.duration {
+  width: 64px;
+  font-size: 20px;
+  font-family: monospace;
+  line-height: 48px;
+}
+
+.content-wrap {
+  flex-grow: 1;
+}
+.title {
+  color: var(--color-primary);
+  font-size: 16px;
+  line-height: 24px;
+}
+.info {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.menu-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  overflow: hidden;
+  transition: margin-right ease-in-out 100ms;
+}
+.menu-wrap:hover {
+  margin-right: -40px;
+}
+.menu-item-wrap {
+  margin-right: -120px;
+  opacity: 0;
+  transition: margin-right ease-in-out 100ms, opacity linear 100ms;
+}
+.menu-wrap:hover .menu-item-wrap {
+  margin-right: 0;
+  opacity: 1;
+}
+
+.button-toggle {
+  opacity: 1;
+  transition: opacity linear 100ms, width 0ms 100ms;
+}
+
+.menu-tooltip {
+  display: none;
+  background-color: var(--color-main);
+}
+
+.hover-area {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 0;
+  transition: height 200ms linear 100ms;
+}
+.wrap.not-pinned .hover-area {
+  height: 100%;
+}
+.wrap:hover .hover-area {
+  height: 0;
+}
+
+.icon-push-pin::before {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24' viewBox='0 0 24 24' width='24'><g><rect fill='none' height='24' width='24'/></g><g><path d='M16,9V4l1,0c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1H7C6.45,2,6,2.45,6,3v0 c0,0.55,0.45,1,1,1l1,0v5c0,1.66-1.34,3-3,3h0v2h5.97v7l1,1l1-1v-7H19v-2h0C17.34,12,16,10.66,16,9z' fill-rule='evenodd'/></g></svg>");
+  content: "";
+}
