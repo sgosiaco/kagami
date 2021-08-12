@@ -44,3 +44,11 @@ export const SettingsIcon = (
     </g>
   </svg>
 );
+
+export const ResizeIcon = (
+  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16">
+    <g>
+      <path id="svg_1" d="m16,16l0,-16l-16,16l16,0z" />
+    </g>
+  </svg>
+);

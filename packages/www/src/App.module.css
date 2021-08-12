@@ -1,0 +1,9 @@
+.resize-handler {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-index-resize-handler);
+  font-size: 0;
+  cursor: se-resize;
+  fill: var(--color-main);
+}
