@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import React, { useState } from "react";
+import { RouteChildrenProps } from "react-router-dom";
 
 import {
   MenuIcon,
@@ -9,13 +10,21 @@ import {
 } from "../common/Icon";
 import classes from "./Header.module.css";
 
-export const Header: React.FC = () => {
+export const Header: React.FC<RouteChildrenProps> = (props) => {
   const [isHeaderPinned, setHeaderPinned] = useState(true);
 
   const duration = "00:00";
   const title = "kagami";
   const info = "mirror your moves, better you move.";
-  const isInSettings = false;
+  const isInSettings = props.location.pathname === "/settings";
+  
+  const handleClickSettings = () => {
+    if (isInSettings) {
+      props.history.push("/")
+    } else {
+      props.history.push("/settings");
+    }
+  }
 
   return (
     <header
@@ -61,7 +70,11 @@ export const Header: React.FC = () => {
           </span>
           <span>
             <button
-              className={classNames("icon-button", isInSettings && "checked")}
+              className={classNames({
+                "icon-button": true,
+                checked: isInSettings,
+              })}
+              onClick={handleClickSettings}
             >
               {SettingsIcon}
             </button>
