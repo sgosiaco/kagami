@@ -1,0 +1,9 @@
+:root {
+  --z-index-resize-handler: 9;
+  --z-index-header: 9;
+  --color-main: #000b;
+  --color-gray: #aaa;
+  --color-text: #fff;
+  --color-header: #212121;
+  --color-primary: #ffa500;
+}

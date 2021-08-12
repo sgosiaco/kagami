@@ -1,4 +1,6 @@
-import "./index.css";
+import "./themes/reset.css";
+import "./themes/variables.css";
+import "./themes/common.css";
 
 import React from "react";
 import ReactDOM from "react-dom";
