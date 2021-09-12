@@ -87,7 +87,13 @@ const updateInfo = (classjob) => {
   updatePetInterrupt(classjobResources[classjob].includes('pet-action'))
 }
 export const getPositionalCounts = () => ({ positionalActionCount: resources.positionalActionCount, mispositionalCount: resources.mispositionalCount })
-export const updateSpeed = (value) => { option.displayTime = value }
+export const updateSpeed = (value) => {
+  const skilldisplayer = document.getElementById('skilldisplayer')
+  const preview = document.getElementById('preview_skilldisplayer')
+  skilldisplayer.style['animation'] = `bg infinite ${value}s linear`
+  preview.style['animation'] = `bg infinite ${value}s linear`
+  option.displayTime = value
+}
 export const updateScale = (value) => { option.scale = value }
 export const updateCheckPositional = (value) => {
   option.checkPositional = value
@@ -145,13 +151,13 @@ export const handleInterrupt = (primaryCharacter, logParameter, active) => {
   }
 
   if (inturruptedAction.actorID === primaryCharacter.charID
-  && inturruptedAction.actorID === resources.lastCastAction.actorID) {
+    && inturruptedAction.actorID === resources.lastCastAction.actorID) {
     resources.interruptedCount++
     appendErrorIcon(resources.lastCastAction.icon, 'interrupted')
     // if (active) updateInfo(primaryCharacter.classjob)
   }
   else if (inturruptedAction.actorID === primaryCharacter.petID
-  && inturruptedAction.actorID === resources.pet.lastCasting.actorID) {
+    && inturruptedAction.actorID === resources.pet.lastCasting.actorID) {
     resources.pet.ghostedActionCount++
     appendErrorIcon(resources.pet.lastCasting.icon, 'interrupted')
   }
@@ -284,7 +290,7 @@ const autoAttack = () => {
   document.getElementById('auto-attack-window').appendChild(icon)
   setTimeout(() => {
     try { document.getElementById('auto-attack-window').removeChild(icon) }
-    catch {} // ignore error
+    catch { } // ignore error
   }, option.displayTime * 1000)
 }
 
@@ -382,7 +388,7 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   actionWindow.appendChild(icon)
   setTimeout(() => {
     try { actionWindow.removeChild(icon) }
-    catch {} // ignore error
+    catch { } // ignore error
   }, option.displayTime * 1000 + action.castTime * 100)
   if (active) updateInfo(primaryCharacter.classjob)
 }
