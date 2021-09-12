@@ -25,6 +25,7 @@ const aaWindowChecker = document.getElementById('auto-attack-switch')
 const petActionsChecker = document.getElementById('pet-actions-switch')
 const positionalChecker = document.getElementById('positional-switch')
 const validatePetChecker = document.getElementById('validate-pet-switch')
+const showBGChecker = document.getElementById('show-bg-switch')
 const displayTimeForm = document.getElementById('speed-form')
 const scaleForm = document.getElementById('scale-form')
 let settings = null
@@ -107,6 +108,9 @@ const changeLang = (lang) => {
   updateUi()
 }
 const changeDisplayTime = (time) => {
+  Array.from(skillDisplayer).forEach((window) => {
+    window.style['animation'] = `bg infinite ${time}s linear`
+  })
   Array.from(aaWindow).forEach((window) => { window.innerHTML = '' })
   playerActionsWindow.innerHTML = ''
   Array.from(petActionsWindow).forEach((window) => { window.innerHTML = '' })
@@ -201,6 +205,22 @@ const uiControl = (param) => {
       Array.from(petActionsWindow).forEach((window) => {
         window.classList.add('hide')
         settings['pet-actions-show'] = false
+        saveSettings()
+      })
+    }
+  })
+  showBGChecker.addEventListener('click', (e) => {
+    if (e.target.checked) { // show
+      Array.from(skillDisplayer).forEach((window) => {
+        window.classList.toggle('bg-active')
+        settings['bg-show'] = true
+        saveSettings()
+      })
+    }
+    else { // hide
+      Array.from(skillDisplayer).forEach((window) => {
+        window.classList.toggle('bg-active')
+        settings['bg-show'] = false
         saveSettings()
       })
     }

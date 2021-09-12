@@ -87,13 +87,7 @@ const updateInfo = (classjob) => {
   updatePetInterrupt(classjobResources[classjob].includes('pet-action'))
 }
 export const getPositionalCounts = () => ({ positionalActionCount: resources.positionalActionCount, mispositionalCount: resources.mispositionalCount })
-export const updateSpeed = (value) => {
-  const skilldisplayer = document.getElementById('skilldisplayer')
-  const preview = document.getElementById('preview_skilldisplayer')
-  skilldisplayer.style['animation'] = `bg infinite ${value}s linear`
-  preview.style['animation'] = `bg infinite ${value}s linear`
-  option.displayTime = value
-}
+export const updateSpeed = (value) => { option.displayTime = value }
 export const updateScale = (value) => { option.scale = value }
 export const updateCheckPositional = (value) => {
   option.checkPositional = value

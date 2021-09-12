@@ -6,5 +6,6 @@
   "scale": 1,
   "check-positionals": true,
   "validate-pet-actions": true,
+  "bg-show": true,
   "lang": "EN"
 }
