@@ -83,7 +83,7 @@ input:disabled ~ label .iconbutton {
   border-left: 0.8rem solid transparent;
   border-right: 0.8rem solid transparent;
   
-  border-top: 0.8rem solid #000000bb;
+  border-top: 0.8rem solid #00000000;
   transform: translate(50%, 0%) rotate(-45deg);
   
   z-index: 9;
@@ -97,7 +97,11 @@ input:disabled ~ label .iconbutton {
 
 .skilldisplayer {
   position: relative;
-  background-color: #000000bb;
+  /*background-color: #00000000;*/
+  background-color: rgba(63, 63, 63, 0.5);
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .5) 25%, rgba(255, 255, 255, .5) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, .5) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .5) 25%, rgba(255, 255, 255, .5) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, .5) 76%, transparent 77%, transparent);
+  background-size: 50px 50px;
+  animation: bg infinite 10s linear;
 }
 .skilldisplayer .icon {
   /* width: 0; */
@@ -138,7 +142,7 @@ input:disabled ~ label .iconbutton {
 
 .casting {
   opacity: 0.4;
-  background-color: #eeeeee;
+  /*background-color: #eeeeee; */
 }
 .interrupted img {
   background-color: transparent;
@@ -179,6 +183,11 @@ input:disabled ~ label .iconbutton {
 }
 .auto-attack-window img {
   width: 1em;
+}
+
+@keyframes bg {
+  from{ background-position: 0 0; }
+  to{ background-position: -100vw 0; }
 }
 
 @keyframes icon-pulse {
