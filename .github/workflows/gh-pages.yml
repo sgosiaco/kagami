@@ -19,8 +19,8 @@ jobs:
         run: |
           git checkout --orphan gh-pages
           yarn build
-          git config user.name "ramram1048"
-          git config user.email "ramram1048@gmail.com"
+          git config user.name "sgosiaco"
+          git config user.email "sgosiaco@me.com"
           git --work-tree dist add --all
           git --work-tree dist commit -m 'Deploy'
           git push origin HEAD:gh-pages --force
