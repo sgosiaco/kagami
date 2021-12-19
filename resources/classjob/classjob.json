@@ -43,5 +43,7 @@
   "RDM": ["casting"],
   "BLU": ["casting"],
   "GNB": [],
-  "DNC": []
+  "DNC": [],
+  "SGE": ["casting"],
+  "RPR": ["casting"]
 }

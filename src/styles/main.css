@@ -144,7 +144,7 @@ input:disabled ~ label .iconbutton {
 
 .casting {
   opacity: 0.4;
-  /*background-color: #eeeeee; */
+  *background-color: #eeeeee;
 }
 .interrupted img {
   background-color: transparent;
