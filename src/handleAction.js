@@ -54,6 +54,11 @@ const samuraiPositionals = [
   7482, // 花車 43D
 ]
 
+const reaperPositionals = [
+  24382, // Gibbet
+  24383, // Gallows
+]
+
 export const cleanup = () => {
   resources.lastTimestamp = -1
   resources.lastActionID = -1
@@ -213,6 +218,13 @@ const checkPositional = (action, logParameter) => {
     const meikyoCode = '48710'
     const noComboCode = '21710'
     return logParameter.slice(8, 22).includes(succeedCode) || logParameter[6].includes(meikyoCode) || logParameter[6].includes(noComboCode)
+  }
+  if (reaperPositionals.includes(action.actionID)) {
+    // reaper rear/flank check
+    resources.positionalActionCount++
+    const gibbetCode = 'D710'
+    const gallowsCode = 'B710'
+    return logParameter[6].includes(gibbetCode) || logParameter[6].includes(gallowsCode)
   }
 
   return true
