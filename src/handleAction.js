@@ -211,7 +211,8 @@ const checkPositional = (action, logParameter) => {
     resources.positionalActionCount++
     const succeedCode = '11B'
     const meikyoCode = '48710'
-    return logParameter.slice(8, 22).includes(succeedCode) || logParameter[6].includes(meikyoCode)
+    const noComboCode = '21710'
+    return logParameter.slice(8, 22).includes(succeedCode) || logParameter[6].includes(meikyoCode) || logParameter[6].includes(noComboCode)
   }
 
   return true
