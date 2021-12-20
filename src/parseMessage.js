@@ -1,6 +1,6 @@
 import classjobResources from '../resources/classjob/classjob.json'
 import {
-  handleAction, handleInterrupt, cleanup, handleJobGauge, handleHit, unsubscribePet
+  handleAction, handleInterrupt, cleanup, handleHit, unsubscribePet // handleJobGauge
 } from './handleAction';
 import { lang } from './lang';
 
@@ -127,7 +127,7 @@ const parseLogLine = (logSplit) => {
   }
   case '31': {
     // job gauge
-    handleJobGauge(primaryCharacter, logParameter, active)
+    // handleJobGauge(primaryCharacter, logParameter, active)
     break
   }
   case '33':

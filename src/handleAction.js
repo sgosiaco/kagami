@@ -157,6 +157,7 @@ export const handleInterrupt = (primaryCharacter, logParameter, active) => {
   }
 }
 
+/*
 export const handleJobGauge = (primaryCharacter, logParameter, active) => {
   if (parseInt(logParameter[0], 16) === primaryCharacter.charID) {
     if (logParameter[1] === '22') { // sam
@@ -174,6 +175,7 @@ export const handleJobGauge = (primaryCharacter, logParameter, active) => {
     }
   }
 }
+*/
 
 const checkPositional = (action, logParameter) => {
   if (monkPositionals.includes(action.actionID)) {
@@ -207,15 +209,9 @@ const checkPositional = (action, logParameter) => {
   if (samuraiPositionals.includes(action.actionID)) {
     // samurai rear/flank check
     resources.positionalActionCount++
-    const comboCode = '4F71' // 4F710*03
-    if (logParameter[6].includes(comboCode)) { // combo bonus.
-      // eval kenki
-      resources.samurai.action = action
-      resources.samurai.checkPositional = true
-      return true
-      // this will always return true, continue check on handleJobGauge()
-    }
-    return false
+    const succeedCode = '11B'
+    const meikyoCode = '48710'
+    return logParameter.slice(8, 22).includes(succeedCode) || logParameter[6].includes(meikyoCode)
   }
 
   return true
