@@ -168643,6 +168643,34 @@
       0
     ]
   },
+  "25779": {
+    "Image": "/i/003000/003185.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "25780": {
+    "Image": "/i/003000/003189.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "25781": {
+    "Image": "/i/003000/003187.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "25782": {
+    "Image": "/i/003000/003188.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
   "25783": {
     "Image": "/i/002000/002620.png",
     "CooldownGroup": [
