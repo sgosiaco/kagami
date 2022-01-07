@@ -143,6 +143,24 @@ const applySettings = () => {
       window.classList.add('hide')
     })
   }
+
+  if (!settings['bg-show']) {
+    showBGChecker.checked = false
+    Array.from(skillDisplayer).forEach((window) => {
+      window.classList.remove('bg-active')
+    })
+  }
+
+  if (!settings['check-positionals']) {
+    positionalChecker.checked = false
+    updateCheckPositional(false)
+  }
+
+  if (!settings['validate-pet-actions']) {
+    validatePetChecker.checked = false
+    updatePetValidation(false)
+  }
+
   languageForm['lang-radio'].value = settings['lang']
   displayTimeForm['speed-radio'].value = settings['display-time']
   scaleForm['scale-radio'].value = settings['scale']
