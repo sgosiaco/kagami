@@ -347,7 +347,7 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   }
 
   // check invalid actionID
-  if (actionID > 25880) { // previously 21000
+  if (actionID > 25885) { // previously 21000
     if (actionID > 0x4000000) {
       // mount icons: 59000 ~ 59399 (266 total)
       const mountID = action.actionID & 0xffffff
