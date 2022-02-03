@@ -29,20 +29,32 @@ const checkSettings = (settings) => {
     return false
   }
 }
-let settings = JSON.parse(localStorage.getItem('kagami'))
+let settings = null
 const initializeSettings = () => {
   settings = initialSettings
-  localStorage.clear()
+  localStorage.removeItem('kagami')
   localStorage.setItem('kagami', JSON.stringify(initialSettings))
 }
-if (settings === null) {
-  console.log('kagami: initialize settings.')
+try {
+  console.log('kagami: trying to load settings...')
+  settings = JSON.parse(localStorage.getItem('kagami'))
+  console.table(settings)
+
+  if (settings === null) {
+    console.log('kagami: initialize settings.')
+    initializeSettings()
+  }
+  else if (!checkSettings(settings)) {
+    console.log('kagami: reset settings.')
+    initializeSettings()
+  }
+}
+catch {
+  console.log('kagami: corrupt settings')
   initializeSettings()
 }
-else if (!checkSettings(settings)) {
-  console.log('kagami: reset settings.')
-  initializeSettings()
-}
+
+console.table(settings)
 
 window.addEventListener('load', () => {
   uiControl(settings)
