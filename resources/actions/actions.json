@@ -181200,5 +181200,3848 @@
       58,
       0
     ]
+  },
+  "29054": {
+    "Image": "/i/009000/009581.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29055": {
+    "Image": "/i/009000/009582.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29056": {
+    "Image": "/i/009000/009112.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29057": {
+    "Image": "/i/009000/009583.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29058": {
+    "Image": "/i/009000/009119.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29059": {
+    "Image": "/i/009000/009122.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29060": {
+    "Image": "/i/009000/009123.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29061": {
+    "Image": "/i/009000/009370.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29062": {
+    "Image": "/i/009000/009125.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29063": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29064": {
+    "Image": "/i/009000/009124.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29065": {
+    "Image": "/i/009000/009369.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29066": {
+    "Image": "/i/009000/009584.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29067": {
+    "Image": "/i/009000/009585.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29068": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29069": {
+    "Image": "/i/009000/009586.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29070": {
+    "Image": "/i/009000/009371.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29071": {
+    "Image": "/i/009000/009587.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29072": {
+    "Image": "/i/009000/009588.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29073": {
+    "Image": "/i/009000/009589.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29074": {
+    "Image": "/i/009000/009131.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29075": {
+    "Image": "/i/009000/009134.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29076": {
+    "Image": "/i/009000/009135.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29077": {
+    "Image": "/i/009000/009429.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29078": {
+    "Image": "/i/009000/009136.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29079": {
+    "Image": "/i/009000/009138.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29080": {
+    "Image": "/i/009000/009694.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29081": {
+    "Image": "/i/009000/009590.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29082": {
+    "Image": "/i/009000/009591.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29083": {
+    "Image": "/i/009000/009592.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29084": {
+    "Image": "/i/009000/009593.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29085": {
+    "Image": "/i/009000/009142.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29086": {
+    "Image": "/i/009000/009145.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29087": {
+    "Image": "/i/009000/009146.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29088": {
+    "Image": "/i/009000/009149.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29089": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29090": {
+    "Image": "/i/009000/009468.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29091": {
+    "Image": "/i/009000/009594.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29092": {
+    "Image": "/i/009000/009150.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29093": {
+    "Image": "/i/009000/009152.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29094": {
+    "Image": "/i/009000/009595.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29095": {
+    "Image": "/i/009000/009596.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29096": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29097": {
+    "Image": "/i/009000/009597.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29098": {
+    "Image": "/i/009000/009352.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29099": {
+    "Image": "/i/009000/009353.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29100": {
+    "Image": "/i/009000/009354.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29101": {
+    "Image": "/i/009000/009357.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29102": {
+    "Image": "/i/009000/009364.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29103": {
+    "Image": "/i/009000/009365.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29104": {
+    "Image": "/i/009000/009366.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29105": {
+    "Image": "/i/009000/009598.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29106": {
+    "Image": "/i/009000/009361.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29107": {
+    "Image": "/i/009000/009599.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29108": {
+    "Image": "/i/009000/009358.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29109": {
+    "Image": "/i/009000/009359.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29110": {
+    "Image": "/i/009000/009360.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29111": {
+    "Image": "/i/009000/009599.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29112": {
+    "Image": "/i/009000/009358.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29113": {
+    "Image": "/i/009000/009359.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29114": {
+    "Image": "/i/009000/009360.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29115": {
+    "Image": "/i/009000/009599.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29116": {
+    "Image": "/i/009000/009358.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29117": {
+    "Image": "/i/009000/009359.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29118": {
+    "Image": "/i/009000/009360.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29119": {
+    "Image": "/i/009000/009599.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29120": {
+    "Image": "/i/009000/009358.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29121": {
+    "Image": "/i/009000/009359.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29122": {
+    "Image": "/i/009000/009360.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29123": {
+    "Image": "/i/009000/009355.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29124": {
+    "Image": "/i/009000/009464.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29125": {
+    "Image": "/i/009000/009600.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29126": {
+    "Image": "/i/009000/009601.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29127": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29128": {
+    "Image": "/i/009000/009602.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29129": {
+    "Image": "/i/009000/009465.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29130": {
+    "Image": "/i/009000/009603.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29131": {
+    "Image": "/i/009000/009604.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29132": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29133": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29134": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29135": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29136": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29137": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29138": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29139": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29140": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29141": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29142": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29143": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29144": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29145": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29146": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29147": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29148": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29149": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29151": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29152": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29154": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29155": {
+    "Image": "/i/061000/061175.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29157": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29158": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29159": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29160": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29161": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29162": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29163": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29164": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29165": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29166": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29168": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29169": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29170": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29171": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29172": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29173": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29174": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29175": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29176": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29177": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29178": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29179": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29180": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29181": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29182": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29183": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29184": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29185": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29186": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29218": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29219": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29220": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29221": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29222": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29223": {
+    "Image": "/i/009000/009605.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29224": {
+    "Image": "/i/009000/009274.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29225": {
+    "Image": "/i/009000/009606.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29226": {
+    "Image": "/i/009000/009436.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29227": {
+    "Image": "/i/009000/009607.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29228": {
+    "Image": "/i/009000/009608.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29229": {
+    "Image": "/i/009000/009609.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29230": {
+    "Image": "/i/009000/009610.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29231": {
+    "Image": "/i/009000/009611.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29232": {
+    "Image": "/i/009000/009283.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29233": {
+    "Image": "/i/009000/009390.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29234": {
+    "Image": "/i/009000/009612.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29235": {
+    "Image": "/i/009000/009333.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29236": {
+    "Image": "/i/009000/009613.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29237": {
+    "Image": "/i/009000/009614.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29238": {
+    "Image": "/i/009000/009386.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29239": {
+    "Image": "/i/009000/009615.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29240": {
+    "Image": "/i/009000/009388.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29241": {
+    "Image": "/i/009000/009385.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29242": {
+    "Image": "/i/009000/009616.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29243": {
+    "Image": "/i/009000/009420.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29244": {
+    "Image": "/i/009000/009617.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29245": {
+    "Image": "/i/009000/009618.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29246": {
+    "Image": "/i/009000/009616.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29247": {
+    "Image": "/i/009000/009420.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29248": {
+    "Image": "/i/009000/009617.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29249": {
+    "Image": "/i/009000/009299.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29250": {
+    "Image": "/i/009000/009300.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29251": {
+    "Image": "/i/009000/009302.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29252": {
+    "Image": "/i/009000/009303.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29253": {
+    "Image": "/i/009000/009619.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29254": {
+    "Image": "/i/009000/009620.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29255": {
+    "Image": "/i/009000/009621.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29256": {
+    "Image": "/i/009000/009567.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29257": {
+    "Image": "/i/009000/009568.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29258": {
+    "Image": "/i/009000/009573.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29259": {
+    "Image": "/i/009000/009574.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29260": {
+    "Image": "/i/009000/009575.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29261": {
+    "Image": "/i/009000/009579.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29262": {
+    "Image": "/i/009000/009622.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29263": {
+    "Image": "/i/009000/009623.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29264": {
+    "Image": "/i/009000/009580.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29265": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29266": {
+    "Image": "/i/009000/009624.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29267": {
+    "Image": "/i/009000/009624.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29268": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29269": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29274": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29291": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29292": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29293": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29294": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29295": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29296": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29297": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29298": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29299": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29300": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29301": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29302": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29303": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29304": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29305": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29306": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29307": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29308": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29309": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29310": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29311": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29312": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29313": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29314": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29315": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29316": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29317": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29318": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29319": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29320": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29321": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29322": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29323": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29324": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29325": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29326": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29327": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29328": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29329": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29330": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29331": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29332": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29333": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29334": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29335": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29336": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29337": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29338": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29339": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29340": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29341": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29342": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29343": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29344": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29345": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29347": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29348": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29349": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29350": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29351": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29352": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29353": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29354": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29355": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29356": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29357": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29359": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29360": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29361": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29362": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29363": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29364": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29366": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29367": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29368": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29369": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29370": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29371": {
+    "Image": "/i/009000/009241.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29374": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29375": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29376": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29377": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29379": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29380": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29381": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29389": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29391": {
+    "Image": "/i/009000/009625.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29392": {
+    "Image": "/i/009000/009218.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29393": {
+    "Image": "/i/009000/009402.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29394": {
+    "Image": "/i/009000/009626.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29395": {
+    "Image": "/i/009000/009627.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29396": {
+    "Image": "/i/009000/009214.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29397": {
+    "Image": "/i/009000/009214.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29398": {
+    "Image": "/i/009000/009214.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29399": {
+    "Image": "/i/009000/009215.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29400": {
+    "Image": "/i/009000/009628.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29401": {
+    "Image": "/i/009000/009629.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29402": {
+    "Image": "/i/009000/009630.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29403": {
+    "Image": "/i/009000/009227.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29404": {
+    "Image": "/i/009000/009631.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29405": {
+    "Image": "/i/009000/009394.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29406": {
+    "Image": "/i/009000/009395.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29407": {
+    "Image": "/i/009000/009392.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29408": {
+    "Image": "/i/009000/009632.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29409": {
+    "Image": "/i/009000/009231.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29410": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29411": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29412": {
+    "Image": "/i/009000/009633.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29413": {
+    "Image": "/i/009000/009634.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29414": {
+    "Image": "/i/009000/009635.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29415": {
+    "Image": "/i/009000/009636.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29416": {
+    "Image": "/i/009000/009442.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29417": {
+    "Image": "/i/009000/009443.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29418": {
+    "Image": "/i/009000/009444.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29419": {
+    "Image": "/i/009000/009445.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29420": {
+    "Image": "/i/009000/009457.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29421": {
+    "Image": "/i/009000/009637.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29422": {
+    "Image": "/i/009000/009638.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29423": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29424": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29425": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29426": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29427": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29428": {
+    "Image": "/i/009000/009640.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29429": {
+    "Image": "/i/009000/009455.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29430": {
+    "Image": "/i/009000/009450.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29431": {
+    "Image": "/i/009000/009456.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29432": {
+    "Image": "/i/009000/009641.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29433": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29434": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29435": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29436": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29437": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29438": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29439": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29440": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29441": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29442": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29443": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29444": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29445": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29446": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29447": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29448": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29449": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29450": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29451": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29459": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29460": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29461": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29462": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29463": {
+    "Image": "/i/064000/064187.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29464": {
+    "Image": "/i/064000/064188.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29465": {
+    "Image": "/i/064000/064189.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29466": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29467": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29468": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29469": {
+    "Image": "/i/009000/009604.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29470": {
+    "Image": "/i/009000/009639.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29471": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29472": {
+    "Image": "/i/009000/009153.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29473": {
+    "Image": "/i/009000/009154.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29474": {
+    "Image": "/i/009000/009155.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29475": {
+    "Image": "/i/009000/009156.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29476": {
+    "Image": "/i/009000/009157.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29477": {
+    "Image": "/i/009000/009158.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29478": {
+    "Image": "/i/009000/009642.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29479": {
+    "Image": "/i/009000/009377.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29480": {
+    "Image": "/i/009000/009378.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29481": {
+    "Image": "/i/009000/009643.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29482": {
+    "Image": "/i/009000/009161.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29483": {
+    "Image": "/i/009000/009644.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29484": {
+    "Image": "/i/009000/009645.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29485": {
+    "Image": "/i/009000/009646.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29486": {
+    "Image": "/i/009000/009461.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29487": {
+    "Image": "/i/009000/009167.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29488": {
+    "Image": "/i/009000/009171.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29489": {
+    "Image": "/i/009000/009647.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29490": {
+    "Image": "/i/009000/009648.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29491": {
+    "Image": "/i/009000/009178.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29492": {
+    "Image": "/i/009000/009179.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29493": {
+    "Image": "/i/009000/009649.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29494": {
+    "Image": "/i/009000/009176.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29495": {
+    "Image": "/i/009000/009650.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29496": {
+    "Image": "/i/009000/009651.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29497": {
+    "Image": "/i/009000/009652.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29498": {
+    "Image": "/i/009000/009653.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29499": {
+    "Image": "/i/009000/009653.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29500": {
+    "Image": "/i/009000/009180.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29501": {
+    "Image": "/i/009000/009181.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29502": {
+    "Image": "/i/009000/009182.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29503": {
+    "Image": "/i/009000/009187.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29504": {
+    "Image": "/i/009000/009434.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29505": {
+    "Image": "/i/009000/009654.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29506": {
+    "Image": "/i/009000/009435.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29507": {
+    "Image": "/i/009000/009189.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29508": {
+    "Image": "/i/009000/009655.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29509": {
+    "Image": "/i/009000/009186.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29510": {
+    "Image": "/i/009000/009656.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29511": {
+    "Image": "/i/009000/009657.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29512": {
+    "Image": "/i/009000/009658.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29513": {
+    "Image": "/i/009000/009185.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29514": {
+    "Image": "/i/009000/009659.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29515": {
+    "Image": "/i/009000/009661.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29516": {
+    "Image": "/i/009000/009661.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29517": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29518": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29519": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29520": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29521": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29522": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29523": {
+    "Image": "/i/009000/009197.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29524": {
+    "Image": "/i/009000/009198.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29525": {
+    "Image": "/i/009000/009199.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29526": {
+    "Image": "/i/009000/009662.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29527": {
+    "Image": "/i/009000/009494.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29528": {
+    "Image": "/i/009000/009495.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29529": {
+    "Image": "/i/009000/009204.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29530": {
+    "Image": "/i/009000/009663.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29531": {
+    "Image": "/i/009000/009664.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29532": {
+    "Image": "/i/009000/009209.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29533": {
+    "Image": "/i/009000/009207.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29534": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29535": {
+    "Image": "/i/009000/009665.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29536": {
+    "Image": "/i/009000/009206.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29537": {
+    "Image": "/i/009000/009666.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29538": {
+    "Image": "/i/009000/009540.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29539": {
+    "Image": "/i/009000/009541.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29540": {
+    "Image": "/i/009000/009542.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29541": {
+    "Image": "/i/009000/009543.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29542": {
+    "Image": "/i/009000/009544.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29543": {
+    "Image": "/i/009000/009545.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29544": {
+    "Image": "/i/009000/009546.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29545": {
+    "Image": "/i/009000/009667.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29546": {
+    "Image": "/i/009000/009668.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29547": {
+    "Image": "/i/009000/009558.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29548": {
+    "Image": "/i/009000/009561.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29549": {
+    "Image": "/i/009000/009669.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29550": {
+    "Image": "/i/009000/009562.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29551": {
+    "Image": "/i/009000/009564.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29552": {
+    "Image": "/i/009000/009565.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29553": {
+    "Image": "/i/009000/009670.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29554": {
+    "Image": "/i/009000/009552.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29555": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29556": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29557": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29558": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29559": {
+    "Image": "/i/009000/009660.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29560": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29561": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29562": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29565": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29566": {
+    "Image": "/i/009000/009553.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29572": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29574": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29575": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29576": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29577": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29578": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29579": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29580": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29581": {
+    "Image": "/i/009000/009188.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29603": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29604": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29605": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29606": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29607": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29608": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29609": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29610": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29611": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29612": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29613": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29614": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29615": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29616": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29617": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29618": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29631": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29632": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29633": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29634": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29635": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29636": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29637": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29638": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29639": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29640": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29642": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29643": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29644": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29645": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29649": {
+    "Image": "/i/009000/009234.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29650": {
+    "Image": "/i/009000/009239.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29651": {
+    "Image": "/i/009000/009242.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29652": {
+    "Image": "/i/009000/009242.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29653": {
+    "Image": "/i/009000/009235.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29654": {
+    "Image": "/i/009000/009240.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29655": {
+    "Image": "/i/009000/009243.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29656": {
+    "Image": "/i/009000/009243.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29657": {
+    "Image": "/i/009000/009671.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29658": {
+    "Image": "/i/009000/009404.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29659": {
+    "Image": "/i/009000/009332.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29660": {
+    "Image": "/i/009000/009245.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29661": {
+    "Image": "/i/009000/009672.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29662": {
+    "Image": "/i/009000/009673.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29663": {
+    "Image": "/i/009000/009674.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29664": {
+    "Image": "/i/009000/009248.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29665": {
+    "Image": "/i/009000/009675.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29666": {
+    "Image": "/i/009000/009415.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29667": {
+    "Image": "/i/009000/009676.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29668": {
+    "Image": "/i/009000/009677.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29669": {
+    "Image": "/i/009000/009678.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29670": {
+    "Image": "/i/009000/009679.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29671": {
+    "Image": "/i/009000/009680.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29672": {
+    "Image": "/i/009000/009253.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29673": {
+    "Image": "/i/009000/009681.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29674": {
+    "Image": "/i/009000/009257.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29675": {
+    "Image": "/i/009000/009682.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29676": {
+    "Image": "/i/009000/009255.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29677": {
+    "Image": "/i/009000/009257.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29678": {
+    "Image": "/i/009000/009683.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29679": {
+    "Image": "/i/009000/009410.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29680": {
+    "Image": "/i/009000/009412.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29681": {
+    "Image": "/i/009000/009413.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29682": {
+    "Image": "/i/009000/009414.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29683": {
+    "Image": "/i/009000/009259.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29684": {
+    "Image": "/i/009000/009684.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29685": {
+    "Image": "/i/009000/009310.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29686": {
+    "Image": "/i/009000/009261.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29687": {
+    "Image": "/i/009000/009685.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29688": {
+    "Image": "/i/009000/009311.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29689": {
+    "Image": "/i/009000/009263.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29690": {
+    "Image": "/i/009000/009264.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29691": {
+    "Image": "/i/009000/009265.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29692": {
+    "Image": "/i/009000/009263.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29693": {
+    "Image": "/i/009000/009264.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29694": {
+    "Image": "/i/009000/009265.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29695": {
+    "Image": "/i/009000/009686.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29696": {
+    "Image": "/i/009000/009686.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29697": {
+    "Image": "/i/009000/009687.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29698": {
+    "Image": "/i/009000/009688.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29699": {
+    "Image": "/i/009000/009266.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29700": {
+    "Image": "/i/009000/009267.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29701": {
+    "Image": "/i/009000/009689.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29702": {
+    "Image": "/i/009000/009690.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29703": {
+    "Image": "/i/009000/009691.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29704": {
+    "Image": "/i/009000/009692.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29705": {
+    "Image": "/i/009000/009692.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29706": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29707": {
+    "Image": "/i/009000/009693.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29708": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29709": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29710": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29711": {
+    "Image": "/i/009000/009108.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29716": {
+    "Image": "/i/009000/009284.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29721": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29722": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29723": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29724": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29725": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29726": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29727": {
+    "Image": "/i/000000/000405.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29735": {
+    "Image": "/i/009000/009581.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
+  },
+  "29736": {
+    "Image": "/i/009000/009430.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29737": {
+    "Image": "/i/009000/009380.png",
+    "CooldownGroup": [
+      58,
+      0
+    ]
+  },
+  "29738": {
+    "Image": "/i/009000/009594.png",
+    "CooldownGroup": [
+      0,
+      0
+    ]
   }
 }

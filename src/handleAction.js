@@ -215,8 +215,8 @@ const checkPositional = (action, logParameter) => {
     // samurai rear/flank check
     resources.positionalActionCount++
     const succeedCode = '11B'
-    const meikyoCode = '48710'
-    const noComboCode = '21710'
+    const meikyoCode = '4871'
+    const noComboCode = '2171'
     return logParameter.slice(8, 22).includes(succeedCode) || logParameter[6].includes(meikyoCode) || logParameter[6].includes(noComboCode)
   }
   if (reaperPositionals.includes(action.actionID)) {
@@ -347,7 +347,7 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   }
 
   // check invalid actionID
-  if (actionID > 25885) { // previously 21000
+  if (actionID > 29738) { // previously 25885, pvp abilities go up to 29738
     if (actionID > 0x4000000) {
       // mount icons: 59000 ~ 59399 (266 total)
       const mountID = action.actionID & 0xffffff
