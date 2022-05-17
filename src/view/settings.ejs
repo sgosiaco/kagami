@@ -135,7 +135,7 @@
   <div class="menu-item">
     <div class="flex-row">
       <div id="show-bg">
-        show background
+        show grid
       </div>
     </div>
     <input type="checkbox" id="show-bg-switch" checked>
@@ -145,6 +145,26 @@
         <div class="switch-thumb"></div>
       </div>
     </label>
+  </div>
+  <div class="menu-item">
+    <div class="flex-row">
+      <div id="bg-color">
+        background color (hex code)
+      </div>
+    </div>
+    <label for="bg-color-input">
+      <div class="flex-row">
+        <input style="display: block; color: black; margin:5px" type="text" id="bg-color-input" minlength="6"
+          maxlength="9" size="9" value="#3f3f3f82">
+        <div id="bg-preview-box" class="box" style="background-color: #3f3f3f82"></div>
+      </div>
+    </label>
+    <div id="bg-color-tooltip" class="tooltip">
+      <span class="orange">The input will not work without the overlay locked</span>
+      <br>
+      <span class="orange">It will also not work if the game is taking keyboard input</span>
+      <br>
+    </div>
   </div>
   <div class="menu-item">
     <div class="flex-row">
@@ -211,8 +231,8 @@
   </div>
   <hr class="divider">
   <div class="contact flex-column">
-    <div class="black">kagami v1.4.0</div>
-    <div id="patch-info">FFXIV patch version: v6.0</div>
+    <div class="black">kagami v1.5.0</div>
+    <div id="patch-info">FFXIV patch version: v6.11</div>
     <div>💬Contact: discord ram#5923</div>
     <div>💬Fork by: discord sgosiaco#4118</div>
     <div>💎FR support: Ashalaya / CN support: ShadyWhite</div>

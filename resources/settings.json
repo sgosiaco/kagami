@@ -7,5 +7,6 @@
   "check-positionals": true,
   "validate-pet-actions": true,
   "bg-show": true,
+  "bg-color": "#3f3f3f82",
   "lang": "EN"
 }

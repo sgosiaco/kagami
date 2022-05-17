@@ -8,6 +8,7 @@ const skillDisplayer = document.getElementsByClassName('skilldisplayer')
 const aaWindow = document.getElementsByClassName('auto-attack-window')
 const playerActionsWindow = document.getElementById('player-actions-window')
 const petActionsWindow = document.getElementsByClassName('pet-actions-window')
+const bgPreviewBox = document.getElementById('bg-preview-box')
 
 const header = document.getElementById('header')
 const slider = document.getElementById('slider')
@@ -26,6 +27,7 @@ const petActionsChecker = document.getElementById('pet-actions-switch')
 const positionalChecker = document.getElementById('positional-switch')
 const validatePetChecker = document.getElementById('validate-pet-switch')
 const showBGChecker = document.getElementById('show-bg-switch')
+const bgColorChecker = document.getElementById('bg-color-input')
 const displayTimeForm = document.getElementById('speed-form')
 const scaleForm = document.getElementById('scale-form')
 let settings = null
@@ -126,6 +128,30 @@ const changeScale = (scale) => {
   updateScale(scale)
 }
 
+const changeBGColor = (color) => {
+  Array.from(skillDisplayer).forEach((window) => {
+    window.style.backgroundColor = color
+  })
+  bgPreviewBox.style.backgroundColor = color
+}
+
+const isValidHexCode = (color) => {
+  // smallest is 7 char   #123456
+  // largest is 9 char    #12345678
+  if (color.includes('#') && (color.length === 7 || color.length === 9)) {
+    return true
+  }
+  // smallest is 6 char   123456
+  // largest is 8 char    12345678
+  if (color.length === 6 || color.length === 8) {
+    return true
+  }
+
+  return false
+}
+
+const defaultBGColor = '#3f3f3f82'
+
 const applySettings = () => {
   if (!settings['pin-header']) {
     pinHeaderChecker.checked = false
@@ -142,6 +168,11 @@ const applySettings = () => {
     Array.from(petActionsWindow).forEach((window) => {
       window.classList.add('hide')
     })
+  }
+
+  if (!settings['bg-color']) {
+    bgColorChecker.value = defaultBGColor
+    changeBGColor(defaultBGColor)
   }
 
   if (!settings['bg-show']) {
@@ -164,9 +195,11 @@ const applySettings = () => {
   languageForm['lang-radio'].value = settings['lang']
   displayTimeForm['speed-radio'].value = settings['display-time']
   scaleForm['scale-radio'].value = settings['scale']
+  bgColorChecker.value = settings['bg-color']
   changeDisplayTime(settings['display-time'])
   changeScale(settings['scale'])
   changeLang(settings['lang'])
+  changeBGColor(settings['bg-color'])
 }
 
 const headerMenu = () => {
@@ -196,53 +229,56 @@ const uiControl = (param) => {
     saveSettings()
   })
   aaWindowChecker.addEventListener('click', (e) => {
+    settings['aa-window-show'] = e.target.checked
+    saveSettings()
     if (e.target.checked) { // show
       Array.from(aaWindow).forEach((window) => {
         window.classList.remove('hide')
-        settings['aa-window-show'] = true
-        saveSettings()
       })
     }
     else { // hide
       Array.from(aaWindow).forEach((window) => {
         window.classList.add('hide')
-        settings['aa-window-show'] = false
-        saveSettings()
       })
     }
   })
   petActionsChecker.addEventListener('click', (e) => {
+    settings['pet-actions-show'] = e.target.checked
+    saveSettings()
     if (e.target.checked) { // show
       Array.from(petActionsWindow).forEach((window) => {
         window.classList.remove('hide')
-        settings['pet-actions-show'] = true
-        saveSettings()
       })
     }
     else { // hide
       Array.from(petActionsWindow).forEach((window) => {
         window.classList.add('hide')
-        settings['pet-actions-show'] = false
-        saveSettings()
       })
     }
   })
   showBGChecker.addEventListener('click', (e) => {
+    settings['bg-show'] = e.target.checked
+    saveSettings()
     if (e.target.checked) { // show
       Array.from(skillDisplayer).forEach((window) => {
         window.classList.toggle('bg-active')
-        settings['bg-show'] = true
-        saveSettings()
       })
     }
     else { // hide
       Array.from(skillDisplayer).forEach((window) => {
         window.classList.toggle('bg-active')
-        settings['bg-show'] = false
-        saveSettings()
       })
     }
   })
+  bgColorChecker.addEventListener('input', (e) => {
+    const hexColor = e.target.value.toLowerCase()
+    if (isValidHexCode(hexColor)) {
+      changeBGColor(hexColor)
+      settings['bg-color'] = hexColor
+      saveSettings()
+    }
+  })
+
   positionalChecker.addEventListener('click', (e) => {
     const { checked } = e.target
     settings['check-positionals'] = checked

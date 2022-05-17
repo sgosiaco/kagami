@@ -1,6 +1,6 @@
 {
   "name": "kagami",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --hot --inline --watch --progress --color",

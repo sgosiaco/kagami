@@ -6,6 +6,7 @@
   background-color: #212121dd;
   overflow: hidden auto;
 }
+
 .preview-background {
   position: absolute;
   top: 0;
@@ -19,6 +20,7 @@
   /* background-color: white; */
   color: #ffffffdd;
 }
+
 .settings-container .menu-item {
   display: flex;
   flex-direction: row;
@@ -26,6 +28,7 @@
   align-items: center;
   padding: 4px;
 }
+
 .menu-item img {
   width: 1.5em;
   height: 1.5em;
@@ -35,6 +38,7 @@
   justify-content: space-around;
   border: 1px solid white;
 }
+
 .radio-label div {
   width: 2em;
   margin-left: 1px;
@@ -43,31 +47,38 @@
   text-align: center;
   transition: background-color 0.2s ease;
 }
-.radio-container input:checked ~ .radio-label div {
-  background-color: rgba(255,165,0, 0.4);
+
+.radio-container input:checked~.radio-label div {
+  background-color: rgba(255, 165, 0, 0.4);
 }
-.radio-container input:disabled ~ .radio-label div {
-  background-color: rgba(32,32,32, 0.8);
+
+.radio-container input:disabled~.radio-label div {
+  background-color: rgba(32, 32, 32, 0.8);
   color: grey;
 }
 
 .subheader {
-  background-color: rgba(32,32,32, 0.8);
+  background-color: rgba(32, 32, 32, 0.8);
 }
+
 .divider {
   border-top: 1px solid #bbb;
 }
+
 .contact {
   text-align: center;
 }
+
 content div {
   padding: 0.5em
 }
+
 .contact .black {
   background-color: #000000bb;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 span.orange {
   color: orange
 }
@@ -76,7 +87,15 @@ span.orange {
 ::-webkit-scrollbar {
   width: 0.5em;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: orange;
   border-radius: 0.5em;
+}
+
+.box {
+  justify-content: space-around;
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
 }

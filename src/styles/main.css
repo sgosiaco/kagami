@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 @import '../../resources/classjob/classjob.css';
@@ -14,21 +13,26 @@
   user-select: none;
   /* vertical-align: baseline; */
 }
-html, body {
+
+html,
+body {
   height: 100vh;
   background-color: transparent;
   overflow: hidden;
   font-family: "Noto Sans KR", sans-serif;
 }
+
 .app {
   position: relative;
   height: 100vh;
 }
+
 .slider {
   width: 200vw;
   flex-grow: 1;
   transition: margin-left .1s ease-in-out;
 }
+
 .settings {
   margin-left: -100vw;
 }
@@ -37,6 +41,7 @@ html, body {
 input {
   display: none;
 }
+
 .hide {
   display: none !important;
 }
@@ -46,6 +51,7 @@ input {
   display: flex;
   flex-direction: column;
 }
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -60,14 +66,17 @@ input {
   display: inline-block;
   cursor: pointer;
 }
+
 .iconbutton:hover {
-  background-color: rgba(100,100,100,0.4);
+  background-color: rgba(100, 100, 100, 0.4);
 }
-input:checked ~ label .iconbutton {
-  background-color: rgba(255,165,100,0.4);
+
+input:checked~label .iconbutton {
+  background-color: rgba(255, 165, 100, 0.4);
   color: orange;
 }
-input:disabled ~ label .iconbutton {
+
+input:disabled~label .iconbutton {
   background-color: transparent;
   color: grey;
 }
@@ -78,14 +87,14 @@ input:disabled ~ label .iconbutton {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 0.8rem solid transparent;
   border-right: 0.8rem solid transparent;
-  
+
   border-top: 0.8rem solid #00000000;
   transform: translate(50%, 0%) rotate(-45deg);
-  
+
   z-index: 9;
 }
 
@@ -97,15 +106,14 @@ input:disabled ~ label .iconbutton {
 
 .skilldisplayer {
   position: relative;
-  background-color: rgb(0,0,0,0.01);
-  /*background-color: #00000000;*/
 }
+
 .bg-active {
-  background-color: rgba(63, 63, 63, 0.5);
   background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .5) 25%, rgba(255, 255, 255, .5) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, .5) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .5) 25%, rgba(255, 255, 255, .5) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, .5) 76%, transparent 77%, transparent);
   background-size: 50px 50px;
   animation: bg infinite 10s linear;
 }
+
 .skilldisplayer .icon {
   /* width: 0; */
   position: absolute;
@@ -115,30 +123,39 @@ input:disabled ~ label .iconbutton {
   display: relative;
   visibility: hidden;
 }
+
 .skilldisplayer img:not(.fetching) {
   animation: icon-pulse 0.5s ease;
 }
 
 .auto-attack-window {
   height: 1em;
-}.auto-attack-window i.error-icon {
+}
+
+.auto-attack-window i.error-icon {
   font-size: 1em;
 }
+
 .player-actions-window {
   height: 3em;
 }
-.player-actions-window img.gcd ~ i.error-icon {
+
+.player-actions-window img.gcd~i.error-icon {
   font-size: 3em;
 }
-.player-actions-window img.ogcd ~ i.error-icon {
+
+.player-actions-window img.ogcd~i.error-icon {
   font-size: 2em;
 }
+
 .icon.interrupted i.error-icon {
   font-size: 1.8em !important;
 }
+
 .pet-actions-window {
   height: 2em;
 }
+
 .pet-actions-window i.error-icon {
   font-size: 2em;
 }
@@ -147,18 +164,22 @@ input:disabled ~ label .iconbutton {
   opacity: 0.4;
   *background-color: #eeeeee;
 }
+
 .interrupted img {
   background-color: transparent;
   filter: grayscale(0.2) blur(0.1em);
   opacity: 1;
 }
+
 .mispositional {
   vertical-align: center;
   text-align: center;
 }
+
 .mispositional img {
   filter: grayscale(0.2) blur(0.1em);
 }
+
 .icon i.error-icon {
   position: absolute;
   left: 0;
@@ -170,42 +191,59 @@ input:disabled ~ label .iconbutton {
 .player-actions-window img.gcd:not(.casting) {
   width: 3em;
 }
+
 .player-actions-window img.gcd.casting {
   width: 1.8em;
   margin-top: 1.2em;
 }
+
 .player-actions-window img.ogcd {
   width: 2em;
 }
+
 .pet-actions-window img:not(.casting) {
   width: 2em;
 }
+
 .pet-actions-window img.casting {
   margin-top: 0.5em;
   width: 1.5em;
 }
+
 .auto-attack-window img {
   width: 1em;
 }
 
 @keyframes bg {
-  from{ background-position: 0 0; }
-  to{ background-position: -100vw 0; }
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -100vw 0;
+  }
 }
 
 @keyframes icon-pulse {
   0% {
     transform: scale(1)
   }
+
   50% {
     transform: scale(1.1)
   }
+
   100% {
     transform: scale(1)
   }
 }
 
 @keyframes icon-loading {
-  from { transform: rotate(0deg) }
-  to { transform: rotate(360deg) }
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
 }

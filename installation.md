@@ -19,7 +19,7 @@ We will not cover the detailed installation about **ACT** or **OverlayPlugin**. 
 3. Choose added overlay on left menu, and set `URL` as
 
 ```
-https://ramram1048.github.io/kagami
+https://sgosiaco.github.io/kagami
 ```
 
 ![installation-3](https://user-images.githubusercontent.com/48747221/89060122-6c636180-d39d-11ea-9aba-508fc2751b44.png)
