@@ -353,7 +353,7 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
       const mountID = action.actionID & 0xffffff
       action.Image = (await fetch(`https://xivapi.com/mount/${mountID}`)
         .then((res) => res.json())
-        .then((json) => json.IconSmall))
+        .then((json) => String(json.IconHD).replace('_hr1.png', '.png')))
     }
     else if (actionID > 0x2000000) {
       // item icons: (30999 total)
