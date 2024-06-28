@@ -45,5 +45,8 @@
   "GNB": [],
   "DNC": [],
   "SGE": ["casting"],
-  "RPR": ["casting"]
+  "RPR": ["mispositional", "casting"],
+
+  "VPR": ["mispositional"],
+  "PCT": []
 }

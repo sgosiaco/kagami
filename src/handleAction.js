@@ -347,7 +347,7 @@ export const handleAction = async (primaryCharacter, logCode, logTimestamp, logP
   }
 
   // check invalid actionID
-  if (actionID > 29738) { // previously 25885, pvp abilities go up to 29738
+  if (actionID > 39783) { // previously 29738, pvp abilities go up to 39783
     if (actionID > 0x4000000) {
       // mount icons: 59000 ~ 59399 (266 total)
       const mountID = action.actionID & 0xffffff
